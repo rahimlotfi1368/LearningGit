@@ -9,7 +9,7 @@
                 Name = "Rahim",
                 Age = 31,
             };
-            string result = $"hello world {person.Name}";
+            string result = $"(IranKhodro)hello world {person.Name}";
             System.Console.WriteLine(result);
             System.Console.ReadKey();
         }
