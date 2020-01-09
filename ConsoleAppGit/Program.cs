@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
-
-            string result = "hello world";
+            Person person = new Person
+            {
+                Name = "Rahim",
+                Age = 31,
+            };
+            string result = $"hello world {person.Name}";
             System.Console.WriteLine(result);
             System.Console.ReadKey();
         }
